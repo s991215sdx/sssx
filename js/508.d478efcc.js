@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksssx"]=self["webpackChunksssx"]||[]).push([[508],{4508:function(s,n,e){e.r(n),e.d(n,{default:function(){return f}});var r=e(6768);const u={class:"home"};function t(s,n,e,t,c,a){return(0,r.uX)(),(0,r.CE)("div",u,"哈哈哈哈哈")}var c={name:"MY_home"},a=e(1241);const o=(0,a.A)(c,[["render",t]]);var f=o}}]);
+//# sourceMappingURL=508.d478efcc.js.map
