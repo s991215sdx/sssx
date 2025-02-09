@@ -1,5 +1,5 @@
 # vue_sssx_static
-
+<!-- s -->
 ## Project setup
 ```
 npm install
