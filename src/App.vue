@@ -1,9 +1,10 @@
 <template>
-  <transition name="fade" mode="out-in">
-    <div id="app">
-      <router-view />
-    </div>
-  </transition>
+  <!-- <transition name="fade" mode="out-in"> -->
+  <div id="app">
+    <router-link to="/">Home</router-link> |
+    <router-view />
+  </div>
+  <!-- </transition> -->
 </template>
 
 <script>

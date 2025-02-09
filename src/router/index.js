@@ -1,25 +1,17 @@
-import { createRouter, createWebHistory } from "vue-router";
-// import About from "../views/About.vue";
+import { createRouter, createWebHashHistory } from "vue-router";
+import Home from "../views/Home/index.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../views/Home/index.vue"),
+    component: Home,
   },
-
-  // {
-  //   path: "/about",
-  //   name: "About",
-  //   component: About,
-  // children:[]
-  // },
 ];
 
 const router = createRouter({
-  // history: createWebHistory(process.env.BASE_URL),
-  history: createWebHistory(),
-  routes,
+  history: createWebHashHistory(), // 使用哈希模式
+  routes, // short for `routes: routes`
 });
 
 export default router;
