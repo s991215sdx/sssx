@@ -8,4 +8,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.home {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+}
+</style>
